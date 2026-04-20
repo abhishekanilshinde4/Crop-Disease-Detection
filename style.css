@@ -106,3 +106,31 @@ p, div, label {
     text-align: center;
     margin-bottom: 20px;
 }
+/* Footer Container Styling */
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white; /* Match your app background */
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    z-index: 999;
+}
+
+.footer-line-1 {
+    color: #D4AF37;
+    font-size: 1.2rem; /* Adjusted for better fit */
+    margin-bottom: 5px;
+}
+
+.footer-line-2 {
+    color: #5A7A5A;
+    font-size: 0.8rem;
+}
+
+/* Add padding to the main body so content doesn't get hidden behind the fixed footer */
+.main .block-container {
+    padding-bottom: 80px;
+}
