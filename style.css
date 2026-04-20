@@ -121,13 +121,13 @@ p, div, label {
 
 .footer-line-1 {
     color: #D4AF37;
-    font-size: 3rem; /* Adjusted for better fit */
+    font-size: 1.9rem; /* Adjusted for better fit */
     margin-bottom: 5px;
 }
 
 .footer-line-2 {
     color: #5A7A5A;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 /* Add padding to the main body so content doesn't get hidden behind the fixed footer */
