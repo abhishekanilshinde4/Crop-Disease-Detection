@@ -241,8 +241,8 @@ def main():
 
         else:
             st.info(t["upload_msg"])
-st.markdown('<div style="text-align: center; color: #D4AF37; font-size: 1.7rem;">Dedicated to <strong>Shetkari Raja</strong> | Plant Health Engine | By <strong>Bug Hunters</strong></div>', unsafe_allow_html=True)
-st.markdown('<div style="text-align: center; color: #5A7A5A; font-size: 1rem;"><footer>&copy; 2026 Bug Hunters. All rights reserved.</footer></div>', unsafe_allow_html=True)
+st.markdown('<div class="footer" style="text-align: center; color: #D4AF37; font-size: 1.7rem;">Dedicated to <strong>Shetkari Raja</strong> | Plant Health Engine | By <strong>Bug Hunters</strong></div>', unsafe_allow_html=True)
+st.markdown('<div class="footer" style="text-align: center; color: #5A7A5A; font-size: 1rem;"><footer>&copy; 2026 Bug Hunters. All rights reserved.</footer></div>', unsafe_allow_html=True)
 
 
 # --------------------
