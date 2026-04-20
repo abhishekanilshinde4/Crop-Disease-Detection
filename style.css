@@ -1,0 +1,108 @@
+/* Import elegant fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+/* Main background */
+.stApp {
+    background-color: #FAFAF8;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #1A2E1A;
+}
+/* Target the button inside the file uploader */
+[data-testid="stFileUploader"] section button {
+    background-color: #f1ecec; /* Change this to your preferred color */
+    color: rgb(5, 5, 5);              /* Text color */
+    border-radius: 5px;        /* Optional: rounded corners */
+    border: none;
+}
+
+/* Change color on hover */
+[data-testid="stFileUploader"] section button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: white;
+}
+
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+    color: #E8E8E0 !important;
+    font-family: 'Playfair Display', serif;
+}
+
+[data-testid="stSidebar"] p, [data-testid="stSidebar"] label {
+    color: #C8C8C0 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Headers */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif !important;
+    color: #1A2E1A !important;
+}
+
+/* Body text */
+p, div, label {
+    font-family: 'Lato', sans-serif;
+    color: #030303fc;
+}
+
+/* Custom button styling */
+.stButton > button {
+    background-color: #e8ece8;
+    color: #fafaf8;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    width: 100%;
+}
+
+.stButton > button:hover {
+    background-color: #2D4A2D;
+    color: #FFFFFF;
+}
+
+/* Success message */
+.success-message {
+    background-color: #E8F5E9;
+    border-left: 4px solid #2E7D32;
+    padding: 16px;
+    border-radius: 4px;
+    margin: 16px 0;
+}
+
+/* Error message */
+.error-message {
+    background-color: #FFEBEE;
+    border-left: 4px solid #C62828;
+    padding: 16px;
+    border-radius: 4px;
+    margin: 16px 0;
+}
+
+/* Result card */
+.result-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Title styling */
+.main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #1A2E1A;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    color: #5A7A5A;
+    text-align: center;
+    margin-bottom: 20px;
+}
