@@ -7,7 +7,7 @@ from deep_translator import GoogleTranslator
 # -------------------- TRANSLATIONS --------------------
 translations = {
     "English": {
-        "title": "🌿 Crop Disease Detector",
+        "title": "🌿 Crop Suraksha",
         "subtitle": "Automated Plant Disease Analysis",
         "upload": "Upload Plant Leaf Image",
         "select_file": "Select a leaf photo",
@@ -27,7 +27,7 @@ translations = {
         "upload_msg": "Upload image to start"
     },
     "Hindi": {
-        "title": "🌿 फसल रोग पहचान",
+        "title": "🌿 Crop Suraksha",
         "subtitle": "स्वचालित पौधा रोग विश्लेषण",
         "upload": "पत्ते की छवि अपलोड करें",
         "select_file": "फोटो चुनें",
@@ -47,7 +47,7 @@ translations = {
         "upload_msg": "शुरू करने के लिए छवि अपलोड करें"
     },
     "Marathi": {
-        "title": "🌿 पिक रोग ओळख",
+        "title": "🌿 Crop Suraksha",
         "subtitle": "स्वयंचलित वनस्पती रोग विश्लेषण",
         "upload": "पानाची प्रतिमा अपलोड करा",
         "select_file": "फोटो निवडा",
@@ -68,7 +68,7 @@ translations = {
     }
 }
 
-PLANT_ID_API_KEY = "YOUR_API_KEY_HERE"
+PLANT_ID_API_KEY = "9SJjSWw1PekRizAEMAqV25jvAIUsmEQvVh4Ewor35DXKgLvzSb"
 
 st.set_page_config(page_title="Crop Health Detector", page_icon="🌿", layout="wide")
 
