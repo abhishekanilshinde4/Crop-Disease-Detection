@@ -68,7 +68,7 @@ translations = {
     }
 }
 
-PLANT_ID_API_KEY = "9SJjSWw1PekRizAEMAqV25jvAIUsmEQvVh4Ewor35DXKgLvzSb"
+PLANT_ID_API_KEY = "ux5raFUDZ3ZCTr8HhMPyxRTIKGqOo1X4ECG3WAIUftMsrqnxKs"
 
 st.set_page_config(page_title="Crop Health Detector", page_icon="🌿", layout="wide")
 
