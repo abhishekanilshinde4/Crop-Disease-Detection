@@ -121,7 +121,7 @@ def main():
     t = translations[lang]
 
     # -------- SIDEBAR --------
-    st.sidebar.title("ℹ️ " + t["result"])
+    st.sidebar.title("System Status")
 
     st.sidebar.success({
         "English": "Connected to AI, ready for analysis.",
